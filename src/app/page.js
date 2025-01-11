@@ -1,6 +1,7 @@
 'use client'
 import AutoFocusInput from "./AutoFocusInput";
 import CounterRef from "./CounterRef";
+import Timer from "./Timer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <h1>Ejercicio2</h1>
       <CounterRef></CounterRef>
       <h1>Ejercicio3</h1>
+      <Timer></Timer>
       <h1>Ejercicio4</h1>
       <h1>Ejercicio5</h1>
       <h1>Ejercicio6</h1>
