@@ -5,6 +5,7 @@ import Timer from "./Timer";
 import RenderCounter from "./RenderCounter";
 import PreviousValue from "./PreviousValue";
 import ColorSlider from "./ColorSlider";
+import TextEditor from "./TextEditor";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <h1>Ejercicio6</h1>
       <ColorSlider></ColorSlider>
       <h1>Ejercicio7</h1>
+      <TextEditor></TextEditor>
       <h1>Ejercicio8</h1>
     </div>
   );
